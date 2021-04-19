@@ -2,9 +2,11 @@
 ### Easy way to upload files to your site without ftp access
 With this simple php script you can easily upload files in the frontend of your website without using FTP or a CMS.
 
-Note: Make sure that your site is encrypted with SSL (https), so no one can grab files!
+_Note: Make sure that your site is encrypted with SSL (https), so no one can grab files!_
 
 First you have to include the content of upload.html into your HTML document. Make sure that the php-script is located in the same folder as your edited HTML-document!
+
+_Note: Protect your HTML document with a password, so that strangers can not upload files!_
 
 ---
 Now you have to change the PHP-Script. Open the file fileUploadScript.php. Now you can customize where your files should be uploaded to and which file types are allowed:
